@@ -1,0 +1,197 @@
+{include file="header.tpl"}
+
+<div class="page_title">
+    <div class="container">
+        <div class="sixteen columns">
+            Investment Plans
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container about">
+
+    <div class="sixteen columns m-bot-25">
+        <h2 class="underlined"><span>Our Investment Plans</span></h2>
+        <div class="container m-bot-35 clearfix">
+    <div class="sixteen columns">
+        <div class="content-container-white buy-container clearfix">
+            <div class="buy-img-container">
+                <i class="icon-signin"></i>
+            </div>
+            <div class="buy-text-container">
+                <div class="buy-text">
+                    <h2>
+                        Eager to sign up?
+                    </h2>
+                    <span class="buy-now-slogan">Our registration process is free, and it is easy and simple! Click on the button to sign up right away!</span>
+                </div>
+            </div>
+            <div class="button-buy-container">
+                <a class="sign-up-button" href="index.html#">SIGN UP NOW</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container clearfix">
+
+
+
+    <!--NEW 3 BLOCKS (1 ver) -->
+    <div class="container clearfix m-bot-15">
+        <!-- BLOCK -->
+        <div class="four columns m-bot-20 ca-menu">
+            <div class="content-container-white">
+                <a class=" clearfix" href="index-_erv=site%7Cplans.html#show">
+                    <div class="ca-icon">
+                        <img src="images/solar.png">
+                    </div>
+                    <div class="ca-content">
+                        <h2 class="ca-main">DEFENSE PLAN</h2>
+
+                        <h3 class="ca-sub">Min - Max: $10 - $999</h3>
+
+                        <h3 class="ca-sub">Duration: 30 days</h3>
+
+                        <h3 class="ca-sub">Daily Profit: 2.0%</h3>
+
+                        <h3 class="ca-sub last">Principal Return: Yes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- BLOCK -->
+        <div class="four columns m-bot-20 ca-menu">
+            <div class=" content-container-white">
+                <a class=" clearfix" href="index-_erv=site%7Cplans.html#show">
+                    <div class="ca-icon">
+                        <img src="images/geo.png">
+                    </div>
+                    <div class="ca-content">
+                        <h2 class="ca-main">LOVE PLAN</h2>
+
+                        <h3 class="ca-sub">Min - Max: $1000 - $2999</h3>
+
+                        <h3 class="ca-sub">Duration: 60 days</h3>
+
+                        <h3 class="ca-sub">Daily Profit: 2.2%</h3>
+
+                        <h3 class="ca-sub last">Principal Return: Yes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- BLOCK -->
+        <div class="four columns m-bot-20 ca-menu">
+            <div class=" content-container-white">
+                <a class=" clearfix" href="index-_erv=site%7Cplans.html#show">
+                    <div class="ca-icon">
+                        <img src="images/wind.png">
+                    </div>
+                    <div class="ca-content">
+                        <h2 class="ca-main">WIND PLAN</h2>
+
+                        <h3 class="ca-sub">Min - Max: $3000 - $50000</h3>
+
+                        <h3 class="ca-sub">Duration: 90 days</h3>
+
+                        <h3 class="ca-sub">Daily Profit: 2.5%</h3>
+
+                        <h3 class="ca-sub last">Principal Return: Yes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- BLOCK -->
+        <div class="four columns m-bot-20 ca-menu">
+            <div class=" content-container-white">
+                <a class=" clearfix" href="#">
+
+                    <div class="ca-content">
+                        <h2 class="ca-main">WHY JOIN US?</h2>
+
+                        <h3 class="ca-sub">Unique Design</h3>
+
+                        <h3 class="ca-sub">Fast Support</h3>
+
+                        <h3 class="ca-sub">Reliable Team</h3>
+
+                        <h3 class="ca-sub last">Dedicated Hosting</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="four columns m-bot-20 ca-menu">
+            <div class=" content-container-white">
+                <a class=" clearfix" href="#">
+                    <div class="ca-content">
+                        <h2 class="ca-main">Special Bonus</h2>
+
+                        <h3 class="ca-sub">Every Weekend</h3>
+
+                        <h3 class="ca-sub">Variable Rates</h3>
+
+                        <h3 class="ca-sub">Lucrative</h3>
+
+                        <h3 class="ca-sub last">Unique</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="sixteen columns m-bot-25">
+        <section class="enr_types">
+            <h2 class="underlined"><span>Clean Energy Types</span></h2>
+            <article class="col4 team">
+            <h3>Biomass</h3>
+            <p>Biomass energy, which can be a help to the environment or a hindurance, is power generated from plants such as fast growing trees including poplars, perennial grass, forest and crop residue and corn stalks and kernels, to name but a few of the sources.</p>
+        </article><article class="col4 team">
+            <h3>Solar</h3>
+            <p>Solar energy, a product of the sun, can be harnessed and converted into electricity or thermal energy through a very easy to manufacture process to heat and cool water and space. The use of photovoltaics are used to absorb the sunlight and the process can convert the sunlight to electricity.</p>
+        </article><article class="col4 team">
+            <h3>Geothermal</h3>
+            <p>Geothermal energy is a product of the earth. To take advantage of thermal energy requires drilling far into the core of the earth. Geothermal energy extraction is primarily used in areas with close to the surface hot spots, such as found in Iceland.</p>
+        </article>
+        <article class="col4 team">
+            <h3>Geothermal</h3>
+            <p>Geothermal energy is a product of the earth. To take advantage of thermal energy requires drilling far into the core of the earth. Geothermal energy extraction is primarily used in areas with close to the surface hot spots, such as found in Iceland.</p>
+        </article>
+        </section>
+    </div>
+    <div class="sixteen columns"  style="margin-bottom: 70px">
+      <h2 class="underlined"><span>Why Inflex Shares?</span></h2>
+
+        <div class="eight columns">
+            <ul class="adv extp">
+                <li>Attractive Bonus system</li>
+                <br />
+                <li>Dedicated Server</li>
+                <br />
+                <li>SolidTrustPay verified</li>
+
+            </ul>
+        </div>
+        <div class="seven    columns">
+            <ul class="adv extp">
+
+                <li>Beautifully crafted website with a dedicated team</li>
+                <br />
+                <li>Fast withdrawals to SolidTrustPay, PerfectMoney and EgoPay.</li>
+                <br />
+                <li>Domain registered until 2020.</li>
+            </ul>
+        </div>
+    </div>
+    <input type="hidden" class="page" value="invest"/>
+</div>
+</div>
+</div>
+
+{include file="footer.tpl"}

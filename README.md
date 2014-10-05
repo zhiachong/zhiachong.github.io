@@ -1,4 +1,4 @@
 zhiachong.github.io
 ===================
 
-Repo for my page!
+This is the repository for my own page. 

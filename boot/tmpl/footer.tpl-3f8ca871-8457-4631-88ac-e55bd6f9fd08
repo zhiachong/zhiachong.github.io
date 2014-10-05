@@ -1,0 +1,192 @@
+<footer>
+    <div class="footer-shadow"></div>
+    <div class="footer-content-bg">
+        <div class="container clearfix">
+            <ul class="footer-nav">
+                <li class="first"><a href="index.html">HOME</a></li>
+                <li><a href="index-_erv=site%7Cabout.html">ABOUT INFLEX SHARES</a></li>
+                <li><a href="index-_erv=site%7Crepresentatives.html">REPRESENTATIVES</a></li>
+                <li><a href="index-_erv=site%7Cplans.html#show">INVESTMENT PLANS</a></li>
+                <li><a href="index-_erv=site%7Cfaq.html">F.A.Q.</a></li>
+                <li><a href="index-_erv=site%7Cnews.html">OUR NEWS</a></li>
+                <li><a href="index-_erv=site%7Cterms.html">TERMS OF SERVICE</a></li>
+                <li><a href="index-_erv=site%7Ccontacts.html">CONTACT US</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="container clearfix">
+            All services on the website are provided on behalf of Inflex Shares. The use, duplication or distribution of
+            any information
+            from the site is allowed only with permission from Inflex Shares <br/>
+            except distribution of promotional materials specified in the Terms and conditions statement.
+            <div class="copyright"> Copyright © 2013 Inflex Shares. All Rights Reserved</div>
+        </div>
+    </div>
+    <div class="footer-copyright-bg">
+        <div class="container ">
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- JS begin -->
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/fancy.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="js/selectivizr-min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/jQuery.BlackAndWhite.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/calc.js"></script>
+<script type="text/javascript" src="js/faq1.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+<!-- JS end -->
+<!-- FORGOT FORM -->
+<div class="close"></div>
+    <!-- close button of the sign in form -->
+    <ul id="form-section">
+        <li>
+            <label>
+                <span>Forgot your password?</span>
+                <p>Please contact one of our support staffs in order to reinstate your account. You can reach us at <a href="mailto:contact@inflexshares.com">contact@inflexshares.com</a>.</p>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        <li>
+            <a id="back-to-login" href="{$settings.site_url}/#">Back to login</a>
+        </li>
+        <div style="clear: both;"></div>
+
+        <li>
+            <button name="forgot-submit" type="submit" id="forgot-submit">Cancel</button>
+        </li>
+        <div style="clear: both;"></div>
+</ul>
+<!-- END OF FORGOT FORM -->
+<!-- BEGIN SIGN IN FORM -->
+<form id="sign-in-form" name=mainform onsubmit="return checkform();" action="page_login.php" method="post">
+    <div class="close"></div>
+    <input type=hidden name=a value='do_login'>
+    <!-- close button of the sign in form -->
+    <ul id="form-section">
+        <li>
+            <label>
+                <span>Username</span>
+                <input id="Username" class="" style="" type="text" name="username" value="{$frm.username|escape:"html"}" placeholder="Please enter your username" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <li>
+            <label>
+                <span>Password</span>
+                <input id="Password" class="" style="" type="password" name="password" value="" placeholder="Please enter your password" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        <li>
+            <a id="forgot" href="{$settings.site_url}/#">Forgot your password?</a>
+        </li>
+        <li>
+            <input type="hidden" name="action" value="signin">
+            <button name="sign-in-submit" type="submit" id="sign-in-submit">Sign In</button>
+        </li>
+        <div style="clear: both;"></div>
+    </ul>
+</form>
+<!-- END OF SIGN IN FORM -->
+<!-- BEGIN REGISTER FORM -->
+<form id="register-form" action="" method="post">
+    <div class="close"></div>
+    <!-- close button of the register form -->
+    <ul id="form-section">
+        <p><span class="register-numbering">1</span><span class="register-numbering-text">Basic information</span></p>
+        <li>
+            <label class="column-1-third">
+                <span>Your First Name*</span>
+                <input id="FirstName" class="" style="" type="text" name="FirstName" value="" placeholder="Please enter your first name" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-2-third">
+                <span>Your Last Name*</span>
+                <input id="LastName" class="" style="" type="text" name="LastName" value="" placeholder="Please enter your last name" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-3-third">
+                <span>Email*</span>
+                <input id="EMail" class="" style="" type="text" name="EMail" value="" placeholder="Please enter a valid email address" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        <li>
+            <label class="column-1-third">
+                <span>Username*</span>
+                <input id="Username" class="" style="" type="text" name="Username" value="" placeholder="Pleasee enter your username" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-2-third">
+                <span>Password*</span>
+                <input id="Password1" class="" style="" type="password" name="Password1" value="" placeholder="Please enter your password" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-3-third">
+                <span>Confirm password*</span>
+                <input id="Password2" class="" style="" type="password" name="Password2" value="" placeholder="Please confirm your password" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        <li>
+            <label class="column-1-third">
+                <span>Country (optional)</span>
+                <input id="country" class="" style="" type="text" name="country" value="" placeholder="Pleasee enter your username" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-2-third">
+                <span>Password*</span>
+                <input id="Password1" class="" style="" type="password" name="Password1" value="" placeholder="Please enter your password" />				<mark class="validate"></mark>
+            </label>
+            <label class="column-3-third">
+                <span>Confirm password*</span>
+                <input id="Password2" class="" style="" type="password" name="Password2" value="" placeholder="Please confirm your password" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        <p><span class="register-numbering">2</span><span class="register-numbering-text">Security information</span>
+        </p>
+        <li>
+            <label class="left-column">
+                <span>Security question*</span>
+                <input id="SecretQuestion" class="" style="" type="text" name="SecretQuestion" value="" placeholder="Please enter your question" />				<mark class="validate"></mark>
+            </label>
+            <label class="right-column">
+                <span>Security answer*</span>
+                <input id="SecretAnswer" class="" style="" type="text" name="SecretAnswer" value="" placeholder="Please enter your answer" />				<mark class="validate"></mark>
+            </label>
+        </li>
+        <div style="clear: both;"></div>
+        
+        	<label class="right-column">
+        	    <span>&nbsp;</span>
+		        <div id="checkbox">
+		            <div>
+		                <span class="unchecked-state"></span>
+		                <span class="checked-state"></span>
+		            </div>
+		            <label for="agree" class="rem-me">I agree to the <a href="index-_erv=site%7Cterms.html" target="_blank">Terms of Service</a></label><br>
+					<mark class="validate"></mark>
+		        </div>
+        	</label>
+        
+        <div style="clear: both;"></div>
+                <li>
+			<input Class="checkbox" Style="" Type="checkbox" id="Accept" name="Accept">            <input type="hidden" name="action" value="register">
+            <button name="submit" tabindex="11" type="submit" id="create-account-submit">Create Account</button>
+        </li>
+    </ul>
+</form>
+<!-- END OF REGISTER FORM -->
+
+<div id="background-on-popup"></div>
+</body>
+</html>
+

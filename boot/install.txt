@@ -1,0 +1,8 @@
+
+- Upload all files
+- Run www.yoursite.com/install.php
+- Enter your database informations user,pass,name,url
+- License Key 123456
+- Done  ( very fast and easy and smooth install )
+
+thanks 

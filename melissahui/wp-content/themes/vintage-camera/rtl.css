@@ -1,0 +1,452 @@
+/*
+Theme Name: Vintage Camera
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* =Reset
+-------------------------------------------------------------- */
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+/* Text elements */
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+.entry-content > ul {
+	margin-right: 20px;
+	margin-left: auto;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+th {
+	text-align: right;
+}
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+/* =Media
+----------------------------------------------- */
+.wp-caption.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption.alignleft {
+	margin-right: 15px;
+	margin-left: auto;
+}
+.wp-caption.alignright {
+	margin-left: 15px;
+	margin-right: auto;
+}
+#image-navigation .previous-image {
+	float: right;
+}
+#image-navigation .next-image {
+	float: left;
+}
+
+/* =Navigation
+----------------------------------------------- */
+#content .nav-previous {
+	float: right;
+}
+#content .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Sidebars/Widgets/Footer
+--------------------------------------------------------------*/
+.sidebars {
+	margin-left: auto;
+	margin-right: auto;
+}
+.widget-area {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#colophon img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/* End Sidebars/Widgets/Footer */
+
+/* =Posts
+--------------------------------------------------------------*/
+a.post-edit-link,
+a.comment-edit-link,
+.search .page a.post-edit-link {
+	border-left: 2px solid rgba(51, 51, 51, .3);
+	left: 0;
+	right: auto;
+	border-right: none;
+}
+.entry-title {
+	margin-left: 0;
+	margin-right: 0;
+}
+.post-date {
+	margin-right: 15px;
+	border-left: 2px solid rgba(51,51,51,.3);
+	margin-left: auto;
+	border-right: none;
+}
+.cat-links {
+	background-position: right top;
+	padding-right: 30px;
+	padding-left: 0;
+}
+.cat-links a {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.tag-links {
+	background-position: right top;
+	padding-right: 30px;
+	padding-left: 0;
+}
+.tag-links a {
+	margin-left: 10px;
+	float: right;
+	margin-right: auto;
+}
+.page-links span.active-link {
+	border-left: 2px solid rgba(51,51,51,.3);
+	border-right: none;
+}
+.page-links a span.active-link {
+	border-left: 2px solid rgba(51,51,51,.3);
+	border-right: none;
+}
+
+/* =Post Formats
+--------------------------------------------------------------*/
+.post.format-link .link-entry-content img,
+.post.format-audio .audio-entry-content img {
+	margin-left: 15px;
+	margin-right: auto;
+}
+.post.format-audio .audio-entry-content img {
+	float: right;
+}
+.post.format-quote .quote .marks {
+	float: right;
+	margin-left: 15px;
+	margin-right: auto;
+}
+.post.format-quote .quote p {
+	float: right;
+}
+.post.format-video embed,
+.post.format-video video {
+	background-position: top right,bottom right;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.post-navigation .nav-previous,
+.paging-navigation .nav-previous {
+	float: right;
+}
+.post-navigation .nav-next,
+.paging-navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Header/Nav Menu
+--------------------------------------------------------------*/
+.ribbon-right {
+	background-image:url('img/ribbon-right.png');
+	right: -28px;
+	left: auto;
+}
+.ribbon-left {
+	background-image:url('img/ribbon-left.png');
+	left: -28px;
+	right: auto;
+}
+hgroup {
+	margin-right: auto;
+	margin-left: auto;
+}
+.searchbar {
+	float: left;
+}
+#searchform #searchsubmit {
+	border-left: 2px solid rgba(51,51,51,.5);
+	border-right: none;
+}
+/* End Header/Nav Menu */
+
+/* =PopUp Nav Menu
+--------------------------------------------------------------*/
+.searchbar {
+	float: left;
+}
+#header-menu {
+	float: right;
+	display: inline-block;
+}
+#header-menu ul li.menu-item {
+	margin-right: 0;
+	margin-left: 20px;
+	float: right;
+}
+#header-menu li.menu-item a {
+	padding: 7px 7px 7px 5px;
+}
+#header-menu li:hover > a {
+	background-color: #666;
+	border-right: 2px solid #333;
+	border-left: none 0;
+	padding-right: 5px;
+}
+#header-menu ul.menu li {
+	float: right;
+}
+#header-menu ul.menu ul {
+	right: 0;
+	left: auto;
+}
+#header-menu ul.menu ul li {
+	border-left: none 0;
+	border-right: 2px solid #333;
+}
+#header-menu ul.menu ul li:hover > a {
+	border-right: none 0;
+	border-left: none 0;
+	padding-right: 7px;
+	padding-left: 5px;
+}
+#header-menu ul.menu ul li:first-of-type {
+	border-top: 0 none;
+}
+#header-menu ul.menu ul ul {
+	right: 130px;
+	left: auto;
+}
+/* End PopUp Nav Menu */
+
+/* =Comments
+--------------------------------------------------------------*/
+#commentform .required {
+	margin-right: -5px;
+	margin-left: auto;
+}
+li.pingback p,
+li.trackback p {
+	padding: 0 80px 0 0px;
+}
+ul.children .comment-author {
+	border-left: 0 none;
+	clear: right;
+	border-right: none;
+}
+ul.children .comment-content,
+ul.children .comment-content .comment-meta,
+ul.children .reply {
+	padding-right: 0;
+	padding-left: 0;
+}
+.avatar {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.comment-content,
+.comment-content .comment-meta,
+.reply {
+	padding-right: 171px;
+	padding-left: 0;
+}
+.comment-author {
+	float: right;
+	border-left: 1px dashed rgba(51,51,51,.3);
+	margin-left: 20px;
+	margin-right: auto;
+	border-right: none;
+}
+.comment-author cite.fn {
+	float: right;
+}
+.comment-form-comment label {
+	float: right;
+}
+/* End Comments */
+
+/* Media queries for responsive design
+--------------------------------------------- */
+#header-menu ul.menu {
+	float: right;
+}
+hgroup img {
+	margin-right: auto;
+	margin-left: auto;
+}
+.post-date {
+	left: -32px;
+	right: auto;
+}
+a.post-edit-link,
+	a.comment-edit-link,
+	.search .page a.post-edit-link {
+	margin-left: -17px;
+	margin-right: auto;
+}
+.widget-area {
+	float: right;
+}
+#sidebar-1 {
+	border-left: 1px dashed #999;
+	border-right: none;
+}
+#sidebar-2 {
+	border-left: 1px dashed #999;
+	border-right: none;
+}
+#sidebar-3 {
+	margin-left: 0px !important;
+	margin-right: auto;
+}
+ul.commentlist > li.comment > ul.children,
+	ol.commentlist > li.comment > ul.children {
+	padding-right: 180px;
+	padding-left: 0;
+}
+
+/* --- iPad Landscape --- */
+@media screen and (max-width: 1024px) {
+	#header-menu ul.menu {
+		float: right;
+	}
+	hgroup img {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.post-date {
+		left: -32px;
+		right: auto;
+	}
+	a.post-edit-link,
+		a.comment-edit-link,
+		.search .page a.post-edit-link {
+		margin-left: -17px;
+		margin-right: auto;
+	}
+	.widget-area {
+		float: right;
+	}
+	#sidebar-1 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-2 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-3 {
+		margin-left: 0px !important;
+		margin-right: auto;
+	}
+	ul.commentlist > li.comment > ul.children,
+		ol.commentlist > li.comment > ul.children {
+		padding-right: 180px;
+		padding-left: 0;
+	}
+}
+
+/* --- iPad Portrait --- */
+@media screen and (max-width: 880px) {
+	hgroup img {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.post-date {
+		left: -32px;
+		right: auto;
+	}
+	a.post-edit-link,
+		a.comment-edit-link,
+		.search .page a.post-edit-link {
+		margin-left: -17px;
+		margin-right: auto;
+	}
+	.widget-area {
+		float: right;
+	}
+	#sidebar-1 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-2 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-3 {
+		margin-left: 0px !important;
+		margin-right: auto;
+	}
+	ul.commentlist > li.comment > ul.children,
+		ol.commentlist > li.comment > ul.children {
+		padding-right: 180px;
+		padding-left: 0;
+	}
+}
+
+/* --- Smartphones and small Tablet PCs --- */
+@media screen and (max-width:620px) {
+	.widget-area {
+		float: right;
+	}
+	#sidebar-1 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-2 {
+		border-left: 1px dashed #999;
+		border-right: none;
+	}
+	#sidebar-3 {
+		margin-left: 0px !important;
+		margin-right: auto;
+	}
+	ul.commentlist > li.comment > ul.children,
+		ol.commentlist > li.comment > ul.children {
+		padding-right: 180px;
+		padding-left: 0;
+	}
+}
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */
