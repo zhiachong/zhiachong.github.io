@@ -22,7 +22,7 @@ function parse()
     
     if (mail($to, $subject, $mail, $headers))
     {
-      header("Refresh:3;url=http://www.zhiachong.github.io");
+      header("Refresh:3;url=http://zhiachong.github.io");
       echo "I have successfully received your inquiry! Please hold on while I redirect you to my main page :) ";
     }  
   }
