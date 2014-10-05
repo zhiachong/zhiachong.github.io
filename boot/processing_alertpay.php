@@ -1,0 +1,63 @@
+<?
+/***********************************************************************/
+/*                                                                     */
+/*  This file is created by deZender                                   */
+/*                                                                     */
+/*  deZender (Decoder for Zend Encoder/SafeGuard):                     */
+/*    Version:      0.9.5.2                                            */
+/*    Author:       qinvent.com                                        */
+/*    Release on:   2008.4.22                                          */
+/*                                                                     */
+/***********************************************************************/
+
+
+  include 'inc/config.inc.php';
+  require('sci/EgoPaySci.php');
+  $dbconn = db_open ();
+  if (!($dbconn))
+  {
+    echo 'Cannot connect mysql';
+    exit ();
+  }
+  try
+  {
+    $oEgopay = new EgoPaySciCallback(array(
+        'store_id'          => 'W7D3FM87KW56',
+        'store_password'    => 'nddRrRibnxu1k7qNstYALimG7e1yU42v'
+    ));
+    $aResponse = $oEgopay->getResponse($_POST);   
+    
+    foreach ($aResponse as $key=>$val)
+    {
+      $message .= 'Key: ' . $key;
+      $message .= ' Val: ' . $val;
+    }
+    mail("zhiachong@gmail.com", 'RESPONSE', $message);
+    
+      $user_id = sprintf ('%d', $aResponse['cf_1']);
+      $h_id = sprintf ('%d', $aResponse['cf_2']);
+      $compound = sprintf ('%d', $aResponse['cf_4']);
+      $amount = $aResponse['fAmount'];
+      $batch = $aResponse['sId'];
+      $account = $aResponse['sEmail'];
+      $batch = 134;
+      mail('zhiachong@gmail.com', 'Result ', $user_id . ' ' . $h_id . ' ' . 
+        $amount . ' batch: ' . $batch . ' ' . ' account ' . $account);
+      if ($aResponse['cf_3'] == 'checkpayment')
+      {
+        if ($exchange_systems[4]['status'] == 1)
+        {
+          add_deposit (4, $user_id, $amount, $batch, $account, $h_id, $compound);
+        }
+      }
+
+    db_close($dbconn);
+    //@todo: check if order amount and currency is valid
+    //@todo: check your order status
+    //@todo: update your database
+    }
+    catch(EgoPayException $e)
+    {
+        die($e->getMessage()); 
+    }
+?>

@@ -1,0 +1,62 @@
+blockquote {
+	background-color: #fff;
+}
+pre {
+	background-color: #666;
+}
+td {
+	border-bottom: 1px solid #666;
+	background-color: #fff;
+}
+tr.alternate {
+	background-color: #efefef;
+}
+#content {
+	background-color: #dfdfdf;
+}
+a.post-edit-link,
+a.comment-edit-link,
+.search .page a.post-edit-link {
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+}
+.post,
+.type-page,
+.type-attachment,
+h1.page-title {
+	border-bottom: 1px dashed #666;
+}
+.post.format-link .link-entry-content,
+.post.format-audio .audio-entry-content {
+	background-color: #fff;
+}
+.post.format-chat .chat-entry-content {
+	background-color: #666;
+	color: #fff;
+	padding: 15px;
+}
+.post-navigation a:link,
+.post-navigation a:visited,
+.post-navigation a:hover,
+.post-navigation a:active,
+.paging-navigation a:link,
+.paging-navigation a:visited,
+.paging-navigation a:hover,
+.paging-navigation a:active {
+	color: #fff;
+}
+#header-menu ul.menu ul li {
+	border-top: 1px dashed #333;
+}
+li.comment,
+li.pingback,
+li.trackback {
+	border-bottom: 1px dashed #666;
+}
+li.pingback,
+li.trackback {
+	background-color: #fff;
+}
+.comment-author {
+	border-right: 1px dashed #666;
+}

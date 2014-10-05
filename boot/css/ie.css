@@ -1,0 +1,14 @@
+#content,
+#footer .container{
+	/* box-shadow:-26px 0 25px -30px rgba(0,0,0,0.2); */
+	box-shadow:none;
+}
+.history .sort-link{
+	background-position: 100% 5px;
+}
+.history .active .sort-link{
+	background-position: 100% -19px;
+}
+.popup-holder .bg{
+	filter:alpha(opacity=40);
+}

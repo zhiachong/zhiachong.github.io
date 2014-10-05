@@ -1,0 +1,201 @@
+body
+{
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #000000;
+  background-image: url("images/hms_bg.gif");
+}
+
+
+.main
+{
+ border-bottom: #000000 1px solid;
+ border-left: #000000 1px solid;
+ border-right: #000000 1px solid;
+ border-top: #000000 1px solid;
+ margin-top: 5px;
+}
+
+
+form 
+{ 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+td, .forTexts
+{
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #000000;
+}
+
+td.item 
+{
+    background-color: #EBF0F6;	
+    color: #000000;
+    border: 1px solid #C8D7E8;
+
+}
+td.inheader 
+{
+ background-color: #CC0000;
+ color:#FFFFFF;
+ font-weight: bold;
+ text-align: center; 
+ border: 2px solid #CC0000;
+ padding-left: 2px;
+ padding-right: 2px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}
+
+
+
+
+/* +++++++++++++ BELOW IS THE CODE FOR THE SITE MENU ++++++++++++++++++ */
+
+#foxmenucontainer{height:24px;background:transparent url(images/foxmenu_bg-OFF.gif);display:block;padding:0px 0 0 0px;}
+#foxmenu{position:relative;display:block;height:24px;font-size:11px;font-weight:bold;font-family:Arial,Verdana,Helvitica,sans-serif;}
+#foxmenu ul{margin:0px;padding:0;list-style-type:none;width:auto;}
+#foxmenu ul li{display:block;float:left;margin:0 1px 0 0;}
+#foxmenu ul li a{display:block;float:left;color:#fff;text-decoration:none;padding:5px 20px 0 20px;height:19px;background:transparent url(images/foxmenu_bg-OFF.gif) no-repeat top left;}
+#foxmenu ul li a:hover{color:#fff;background:transparent url(images/foxmenu_bg-OVER.gif) no-repeat top right;}
+#foxmenu ul li a.current,#foxmenu ul li a.current:hover{color:#000;background:#fff;}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++ STYLES USED FOR BOXES:LOGIN,STATS,INFO ++++++++++ */
+.block_top
+{
+background:url(images/block_top.gif);
+background-repeat:repeat-x
+}
+.bg_block
+{
+background: #EBF0F6;
+border-bottom: #c8bea6 1px solid;
+border-left: #c8bea6 1px solid;
+border-right: #c8bea6 1px solid;
+padding:5;
+width: 180px;
+}
+
+.block
+{
+background: #EBF0F6;
+border: #c8bea6 1px solid;
+padding:5;
+margin-left:4px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* +++++++++++++ STYLE USED FOR MEMBERS MENU +++++++++++++++++++ */
+a.menutxt 
+{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: #FFFFFF;
+ font-weight: bold;
+ text-decoration: none;
+ height:auto;
+ background-color: #CC0000;;
+
+ padding-top:3px;
+ padding-bottom:3px;
+ padding-left:3px;
+ padding-right:3px;
+
+ text-indent: 1.5pt;
+ display: block;
+}
+
+a.menutxt:hover 
+{
+ text-decoration: none;
+ background-color: #FB8A46;
+ color: #FFFFFF;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+span.reallysmall { font-family: Tahoma; font-size: 7px }
+
+a.toplink, a.toplink:hover, a.toplink:visited, a.toplink:active {
+	color: white;
+	text-decoration: none;
+}
+.copy
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #818181;
+	text-align: center;
+}
+
+
+th 
+{
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.title 
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.inpts 
+{
+        FONT-FAMILY: Georgia
+	font-size: 10px;
+	color: #222222;
+	background-color: #F2FAFD;
+	border: 1px inset #FEE498;
+	border-color: #28A6D9;
+	border-style: solid;
+}
+.sbmt 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #40565f;
+	background-color: #ffffff;
+	border: 1px solid #999999
+}
+
+a.hlp, a.hlp:active, a.hlp:visited, a.hlp:hover { font-family: Tahoma; font-size: 12px; color: black; text-decoration: none; cursor: help;}
+
+.line {
+	background-color: #FFFFFF;
+}
+
+h3 
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* ++++++++ STYLES USED TO DISLPLAY EARNINGS CALENDAR +++++++ */
+
+.calendartable 
+{
+	background-color: C2C2C2;
+	text-align: center;
+}
+.calendartablebg 
+{
+	background-color: white;
+}
+.calendarweek 
+{
+	background-color: C2C2C2;
+	text-align: center;	
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
